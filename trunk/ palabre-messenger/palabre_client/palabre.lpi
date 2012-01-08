@@ -1,0 +1,851 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="2"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <CurrentVersionNr Value="1"/>
+      <FileDescription Value="Logiciel de messagerie"/>
+      <LegalCopyright Value="(c) 2010-2011 Darryl Kpizingui"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="C:\Users\Public\Music"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <UseExcludeFileFilter Value="True"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+      <SaveClosedEditorFilesInfo Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="TurboPowerIPro"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="86">
+      <Unit0>
+        <Filename Value="palabre.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="palabre"/>
+        <CursorPos X="61" Y="17"/>
+        <TopLine Value="7"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="palabre.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="palabres"/>
+        <CursorPos X="14" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="118"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src\entity\ucontact.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ucontact"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src\entity\uijson.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uijson"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src\entity\uilist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uilist"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="src\entity\ulounge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ulounge"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="src\entity\ustatus.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ustatus"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="src\entity\uuser.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uUser"/>
+        <CursorPos X="9" Y="5"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="src\core\tparseur.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TParseur"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="src\entity\ucontactlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UContactList"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+        <FoldState Value=" T5N01 T8RLD T9SN10 T4i103115/"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="src\entity\umessage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UMessage"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="src\core\ureflect.pas"/>
+        <UnitName Value="ureflect"/>
+        <CursorPos X="50" Y="11"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="124"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="src\core\urpc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="urpc"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="173"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="src\core\urpcstube.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uRPCStube"/>
+        <CursorPos X="28" Y="182"/>
+        <TopLine Value="172"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="173"/>
+        <Loaded Value="True"/>
+        <FoldState Value=" T4iL0C04G Pr7uV0 T7t301011v"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="src\core\uloungelist.pas"/>
+        <UnitName Value="ULoungeList"/>
+        <CursorPos X="40" Y="15"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="124"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="lib\lnet\lnet.pp"/>
+        <UnitName Value="lNet"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="lib\lnet\upalabreserver.pas"/>
+        <UnitName Value="UpalabreServer"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="lib\lnet\ucoreclient.pas"/>
+        <UnitName Value="ucoreClient"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="src\client\myapplication.pas"/>
+        <UnitName Value="myApplication"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="124"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="src\server\uclientthread.pas"/>
+        <UnitName Value="UClientThread"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="lib\SocketClasses.pp"/>
+        <UnitName Value="SocketClasses"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="src\client\client.pas"/>
+        <UnitName Value="client"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="servclient.pas"/>
+        <UnitName Value="servClient"/>
+        <UsageCount Value="9"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="dataaccess.pas"/>
+        <UnitName Value="dataAccess"/>
+        <UsageCount Value="9"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="servcontext.pas"/>
+        <UnitName Value="servContext"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="src\server\upalabreserver.pas"/>
+        <UnitName Value="upalabreserver"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="src\client\ucoreclient.pas"/>
+        <UnitName Value="ucoreClient"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="124"/>
+        <FoldState Value=" T4iL0713412 Pi7jX1 T2k903031P"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\typinfo.pp"/>
+        <UnitName Value="typinfo"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="palabreui.pas"/>
+        <ComponentName Value="UIPalabre"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="palabreui"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="103"/>
+        <FoldState Value=" T4kd03512321111]54[94[C4[66 PkXpe0 T2mN050]Z5113]P]6[dDiJoJ]d7m]N0[L6^"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="lib\synapse\synaip.pas"/>
+        <UnitName Value="synaip"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="7"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="palabre.lrs"/>
+        <CursorPos X="17" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="1"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\packages\fcl-json\src\fpjson.pp"/>
+        <UnitName Value="fpjson"/>
+        <CursorPos X="8" Y="337"/>
+        <TopLine Value="317"/>
+        <UsageCount Value="6"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\packages\fcl-base\src\contnrs.pp"/>
+        <UnitName Value="contnrs"/>
+        <CursorPos X="3" Y="1461"/>
+        <TopLine Value="1463"/>
+        <UsageCount Value="1"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\expandpanels\expandpanels.pas"/>
+        <UnitName Value="ExpandPanels"/>
+        <CursorPos X="12" Y="215"/>
+        <TopLine Value="186"/>
+        <UsageCount Value="1"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\classes\classesh.inc"/>
+        <CursorPos X="17" Y="1529"/>
+        <TopLine Value="1516"/>
+        <UsageCount Value="6"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <CursorPos X="15" Y="1158"/>
+        <TopLine Value="1147"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\win32\windows.pp"/>
+        <UnitName Value="windows"/>
+        <CursorPos X="15" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="12"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\inc\systemh.inc"/>
+        <CursorPos X="42" Y="223"/>
+        <TopLine Value="356"/>
+        <UsageCount Value="3"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\..\Documents\lazarus\palabre\bin\palabreui.lrs"/>
+        <CursorPos X="33" Y="60"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="3"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <CursorPos X="1" Y="163"/>
+        <TopLine Value="150"/>
+        <UsageCount Value="3"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\colorbox.pas"/>
+        <UnitName Value="ColorBox"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="3"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\win\wininc\base.inc"/>
+        <CursorPos X="18" Y="65"/>
+        <TopLine Value="49"/>
+        <UsageCount Value="3"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="uprivateui.pas"/>
+        <ComponentName Value="FriendForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrivateUI"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="56"/>
+        <FoldState Value=" T4kK0301L PiZk00 T7kZ010"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="17" Y="171"/>
+        <TopLine Value="158"/>
+        <UsageCount Value="7"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\classes\stringl.inc"/>
+        <CursorPos X="3" Y="153"/>
+        <TopLine Value="148"/>
+        <UsageCount Value="3"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="src\client\stringstohtml.pas"/>
+        <UnitName Value="StringsToHtml"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="49"/>
+        <FoldState Value=" T4j803r"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <CursorPos X="10" Y="199"/>
+        <TopLine Value="186"/>
+        <UsageCount Value="8"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\..\..\..\lazarus\components\turbopower_ipro\iphtml.pas"/>
+        <UnitName Value="IpHtml"/>
+        <CursorPos X="47" Y="17184"/>
+        <TopLine Value="17167"/>
+        <UsageCount Value="6"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\..\..\..\lazarus\components\turbopower_ipro\ipfilebroker.pas"/>
+        <UnitName Value="Ipfilebroker"/>
+        <CursorPos X="18" Y="28"/>
+        <TopLine Value="23"/>
+        <UsageCount Value="7"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\picture.inc"/>
+        <CursorPos X="1" Y="695"/>
+        <TopLine Value="695"/>
+        <UsageCount Value="7"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="src\client\connexform.pas"/>
+        <ComponentName Value="FormConnex"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ConnexForm"/>
+        <CursorPos X="1" Y="102"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="20"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\inc\objpash.inc"/>
+        <CursorPos X="23" Y="151"/>
+        <TopLine Value="138"/>
+        <UsageCount Value="6"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="src\core\uformconnex.pas"/>
+        <ComponentName Value="TFormConnex"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uformconnex"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="31"/>
+        <FoldState Value=" T4ia0T2122313 PiPkI0P"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\interfaces\win32\win32wscontrols.pp"/>
+        <UnitName Value="Win32WSControls"/>
+        <CursorPos X="1" Y="224"/>
+        <TopLine Value="209"/>
+        <UsageCount Value="6"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\control.inc"/>
+        <CursorPos X="3" Y="3516"/>
+        <TopLine Value="3508"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\customform.inc"/>
+        <CursorPos X="15" Y="1550"/>
+        <TopLine Value="1532"/>
+        <UsageCount Value="6"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\scrollingwincontrol.inc"/>
+        <CursorPos X="16" Y="255"/>
+        <TopLine Value="248"/>
+        <UsageCount Value="6"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\customcontrol.inc"/>
+        <CursorPos X="16" Y="30"/>
+        <TopLine Value="26"/>
+        <UsageCount Value="6"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <CursorPos X="17" Y="5988"/>
+        <TopLine Value="5975"/>
+        <UsageCount Value="6"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <CursorPos X="16" Y="95"/>
+        <TopLine Value="93"/>
+        <UsageCount Value="6"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\classes\compon.inc"/>
+        <CursorPos X="3" Y="411"/>
+        <TopLine Value="408"/>
+        <UsageCount Value="6"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="src\client\uerrortigger.pas"/>
+        <UnitName Value="uErrorTigger"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="26"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\packages\fcl-json\src\jsonparser.pp"/>
+        <UnitName Value="jsonparser"/>
+        <CursorPos X="22" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="src\client\usettings.pas"/>
+        <ComponentName Value="SettingForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="usettings"/>
+        <CursorPos X="74" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="24"/>
+        <FoldState Value=" T4iL03p"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\lclintf.pas"/>
+        <UnitName Value="LCLIntf"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="upalabre.pas"/>
+        <UnitName Value="upalabre"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="lib\synapse\blcksock.pas"/>
+        <UnitName Value="blcksock"/>
+        <CursorPos X="22" Y="833"/>
+        <TopLine Value="821"/>
+        <UsageCount Value="23"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <CursorPos X="34" Y="7"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="src\ui\connexform.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="65"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="src\ui\connexform.pas"/>
+        <ComponentName Value="FormConnex"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ConnexForm"/>
+        <CursorPos X="52" Y="8"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="17"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="src\ui\palabreui.lfm"/>
+        <CursorPos X="36" Y="2020"/>
+        <TopLine Value="2001"/>
+        <UsageCount Value="17"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="UIPalabre"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="palabreui"/>
+        <CursorPos X="34" Y="6"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <FoldState Value=" T4m40O6214D252F Pn0re0P"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="src\ui\uformconnex.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="65"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TFormConnex"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uformconnex"/>
+        <CursorPos X="9" Y="88"/>
+        <TopLine Value="77"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="src\ui\uprivateui.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="65"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FriendForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPrivateUI"/>
+        <CursorPos X="6" Y="255"/>
+        <TopLine Value="236"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="src\ui\usettings.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="65"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="src\ui\usettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SettingForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="usettings"/>
+        <CursorPos X="3" Y="7"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="11"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="src\entity\uloungelist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uloungelist"/>
+        <UsageCount Value="65"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="src\core\myapplication.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="myApplication"/>
+        <CursorPos X="56" Y="30"/>
+        <TopLine Value="11"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="src\core\stringstohtml.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StringsToHtml"/>
+        <CursorPos X="53" Y="127"/>
+        <TopLine Value="114"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="src\core\ucoreclient.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ucoreClient"/>
+        <CursorPos X="24" Y="192"/>
+        <TopLine Value="175"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="src\core\uerrortigger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uerrortigger"/>
+        <UsageCount Value="65"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="lib\synapse\synacode.pas"/>
+        <UnitName Value="synacode"/>
+        <CursorPos X="23" Y="1338"/>
+        <TopLine Value="1326"/>
+        <UsageCount Value="6"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\objpas.pp"/>
+        <UnitName Value="objpas"/>
+        <CursorPos X="8" Y="28"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="6"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="..\..\..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <CursorPos X="14" Y="173"/>
+        <TopLine Value="162"/>
+        <UsageCount Value="9"/>
+      </Unit85>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="623" Column="4" TopLine="581"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="108" Column="83" TopLine="94"/>
+      </Position2>
+      <Position3>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="96" Column="51" TopLine="87"/>
+      </Position3>
+      <Position4>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="625" Column="32" TopLine="595"/>
+      </Position4>
+      <Position5>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="426" Column="34" TopLine="418"/>
+      </Position5>
+      <Position6>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="6" Column="42" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="114" Column="13" TopLine="103"/>
+      </Position7>
+      <Position8>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="242" Column="5" TopLine="224"/>
+      </Position8>
+      <Position9>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="133" Column="9" TopLine="121"/>
+      </Position9>
+      <Position10>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="132" Column="23" TopLine="122"/>
+      </Position10>
+      <Position11>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="234" Column="7" TopLine="216"/>
+      </Position11>
+      <Position12>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="99" Column="47" TopLine="96"/>
+      </Position12>
+      <Position13>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="251" Column="28" TopLine="248"/>
+      </Position13>
+      <Position14>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="247" Column="28" TopLine="244"/>
+      </Position14>
+      <Position15>
+        <Filename Value="src\ui\uformconnex.pas"/>
+        <Caret Line="252" Column="27" TopLine="250"/>
+      </Position15>
+      <Position16>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="201" Column="17" TopLine="189"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\..\..\lazarus\lcl\include\control.inc"/>
+        <Caret Line="230" Column="10" TopLine="225"/>
+      </Position17>
+      <Position18>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="155" Column="25" TopLine="151"/>
+      </Position18>
+      <Position19>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="302" Column="3" TopLine="294"/>
+      </Position19>
+      <Position20>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="28" Column="41" TopLine="19"/>
+      </Position20>
+      <Position21>
+        <Filename Value="src\ui\uprivateui.pas"/>
+        <Caret Line="246" Column="18" TopLine="235"/>
+      </Position21>
+      <Position22>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="29" Column="4" TopLine="19"/>
+      </Position22>
+      <Position23>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="285" Column="9" TopLine="268"/>
+      </Position23>
+      <Position24>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="669" Column="12" TopLine="636"/>
+      </Position24>
+      <Position25>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="278" Column="26" TopLine="275"/>
+      </Position25>
+      <Position26>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="291" Column="47" TopLine="269"/>
+      </Position26>
+      <Position27>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="327" Column="3" TopLine="319"/>
+      </Position27>
+      <Position28>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="284" Column="7" TopLine="276"/>
+      </Position28>
+      <Position29>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="288" Column="3" TopLine="277"/>
+      </Position29>
+      <Position30>
+        <Filename Value="src\ui\palabreui.pas"/>
+        <Caret Line="292" Column="47" TopLine="185"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <OtherUnitFiles Value="src\entity\;src\core\;lib\lnet\;src\client\;src\server\;lib\;lib\synapse\;src\ui\"/>
+      <UnitOutputDirectory Value="bin"/>
+      <SrcPath Value="lib\lnet\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="fpc"/>
+        <StaticKeyword Value="True"/>
+        <UseAnsiStrings Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="1">
+      <Item1>
+        <Name Value="EIpHtmlException"/>
+      </Item1>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
